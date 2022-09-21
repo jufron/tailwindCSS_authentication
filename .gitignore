@@ -1,14 +1,8 @@
-/node_modules
+/node_modules;
 
-tailwind.config.js
-
-types/generated/*.d.ts
-
-# Perf related files
-isolate*.log
-
+tailwind.config.js;
 # Generated files
-/src/corePluginList.js
+/src/corePluginList.js;
 
 # Generated files during tests
-/tests/evaluate-tailwind-functions.test.html
+/tests/evaluate-tailwind-functions.test.html;
