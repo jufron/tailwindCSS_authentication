@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>register tailwind css</title>
+  <link rel="stylesheet" href="assets/css/all-min.css">
+  <!-- <link rel="stylesheet" href="../dist/output.css"> -->
+</head>
+<body class="bg-fuchsia-800">
+  <div class="container mx-auto">
+    <div class="bg-slate-50 max-w-lg mx-auto my-32 py-6 px-6 rounded-lg shadow-xl
+      sm:py-8 sm:rounded-2xl
+      md:px-8 md:py-10
+    ">
+      <h1 class="text-4xl font-semibold font-sans">Register</h1>
+
+      <label for="name" class="block mb-2 mt-8 font-medium text-gray-600">Name</label>
+      <input class="w-full rounded-xl focus:outline-none focus:ring focus:ring-sky-500 transition duration-300 border border-sky-400" type="text" id="name" name="name" placeholder="masukan nama anda">
+      
+      <label for="email" class="block mb-2 mt-3 font-medium text-gray-600">Email</label>
+      <input class="w-full rounded-xl focus:outline-none focus:ring focus:ring-sky-500 transition duration-300 border border-sky-400" type="email" id="email" name="email" placeholder="example@email.com">
+      
+      <div class="block sm:grid sm:grid-cols-2 sm:gap-4">
+        <div>
+          <label for="password" class="block mt-3 mb-2 font-medium text-gray-600">Password</label>
+          <input class="w-full rounded-xl focus:outline-none focus:ring focus:ring-sky-500 transition duration-300 border border-sky-400" type="password" name="password" id="password" placeholder="password kamu">
+        </div>
+        <div>
+          <label for="passwordConfirm" class="block mt-3 mb-2 font-medium text-gray-600">Password Confirm</label>
+          <input class="w-full rounded-xl focus:outline-none focus:ring focus:ring-sky-500 transition duration-300 border border-sky-400" type="password" name="passwordConfirm" id="passwordConfirm" placeholder="ulangi password">
+        </div>
+      </div>
+      
+      <label for="jenis-kelamin" class="block mt-3 mb-2 font-medium text-gray-600">Jenis Kelamin</label>
+      <select name="jenis-kelamin" id="jenis-kelamin" class="w-full rounded-xl focus:outline-none focus:ring focus:ring-sky-500 transition duration-300 border border-x-sky-400">
+        <option class="text-slate-600" disabled selected>Pilih</option>
+        <option value="laki-laki">Laki-laki</option>
+        <option value="perempuan">Perempuan</option>
+      </select>
+      
+      <div class="mt-5 sm:flex">
+        <button class="block w-full text-center py-2 px-4 rounded-xl bg-indigo-500 text-slate-100 focus:outline-none focus:ring focus:ring-indigo-300 transition duration-300 hover:bg-indigo-700 font-medium shadow-sm
+        sm:mr-2 sm:w-28
+        ">Register</button>
+        <a href="index.html" class="block w-full mt-3 text-center py-2 px-4 rounded-xl bg-sky-500 text-slate-100 focus:outline-none focus:ring focus:ring-sky-300 transition duration-300 hover:bg-sky-700 font-medium shadow-sm
+        sm:ml-2 sm:w-28 sm:mt-0
+        ">Login</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
