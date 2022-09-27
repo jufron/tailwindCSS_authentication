@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tailwind css flexbox & responsive design</title>
+  <link rel="stylesheet" href="../dist/output.css">
+</head> 
+<body>
+  <div class="bg-slate-100">
+    <div class="container py-10 m-auto md:px-0 md:flex">
+      <div class="flex overflow-hidden md:max-w-2xl rounded-2xl">
+        <img class="object-cover object-center" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="banner">
+      </div>
+      <div class="flex flex-col content-center justify-start w-full px-6 py-4 sm:max-w-full md:max-w-xl">
+        <h1 class="mb-10 text-3xl font-semibold">adipisicing elit. Qui quis sunt rerum minus, totam dolore!</h1>
+        <p class="mb-10 leading-7 font-base md:font-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto molestias rerum quis minus, ducimus ipsa quos quidem, ipsam harum, perferendis unde optio laboriosam asperiores esse tenetur fugiat repellat? Mollitia soluta ipsam alias numquam dolores error in expedita labore perspiciatis maiores?</p>
+        <button class="block w-[160px] text-slate-100 rounded-lg px-2 py-4 bg-pink-600 hover:bg-pink-800 foucs:outline-none focus:ring focus:ring-pink-700">Leam More</button>
+      </div>
+    </div>
+  </div>
+  <div class="bg-white">
+    <div class="container px-6 py-10 m-auto sm:flex-wrap sm:flex sm:justify-center sm:px-0 sm:gap-x-5 sm:gap-y-5">
+      <!-- cards -->
+      <div class="overflow-hidden sm:w-72 md:w-[355px] rounded-2xl bg-slate-100">
+        <div>
+          <img class="object-cover object-center rounded-xl" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="banner">
+        </div>
+        <div class="px-4 pt-4 pb-6">
+          <div class="flex flex-wrap justify-around mb-4 gap-x-4">
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-orange-500 text-slate-200 rounded-xl">HTML</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-blue-500 text-slate-200 rounded-xl">CSS</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-yellow-500 text-slate-200 rounded-xl">Javascipt</span>
+          </div>
+          <h1 class="mb-5 text-xl font-semibold">Lorem ipsum dolor sit.</h1>
+          <p class="leading-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quisquam temporibus accusamus voluptate aliquam id.</p>
+        </div>
+      </div>
+      
+      <div class="overflow-hidden sm:w-72 md:w-[355px] rounded-2xl bg-slate-100">
+        <div>
+          <img class="object-cover object-center rounded-xl" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="banner">
+        </div>
+        <div class="px-4 pt-4 pb-6">
+          <div class="flex flex-wrap justify-around mb-4 gap-x-4">
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-orange-500 text-slate-200 rounded-xl">HTML</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-blue-500 text-slate-200 rounded-xl">CSS</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-yellow-500 text-slate-200 rounded-xl">Javascipt</span>
+          </div>
+          <h1 class="mb-5 text-xl font-semibold">Lorem ipsum dolor sit.</h1>
+          <p class="leading-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quisquam temporibus accusamus voluptate aliquam id.</p>
+        </div>
+      </div>
+      
+      <div class="overflow-hidden sm:w-72 md:w-[355px] rounded-2xl bg-slate-100">
+        <div>
+          <img class="object-cover object-center rounded-xl" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="banner">
+        </div>
+        <div class="px-4 pt-4 pb-6">
+          <div class="flex flex-wrap justify-around mb-4 gap-x-4">
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-orange-500 text-slate-200 rounded-xl">HTML</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-blue-500 text-slate-200 rounded-xl">CSS</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-yellow-500 text-slate-200 rounded-xl">Javascipt</span>
+          </div>
+          <h1 class="mb-5 text-xl font-semibold">Lorem ipsum dolor sit.</h1>
+          <p class="leading-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quisquam temporibus accusamus voluptate aliquam id.</p>
+        </div>
+      </div>
+      
+      <div class="overflow-hidden sm:w-72 md:w-[355px] rounded-2xl bg-slate-100">
+        <div>
+          <img class="object-cover object-center rounded-xl" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="banner">
+        </div>
+        <div class="px-4 pt-4 pb-6">
+          <div class="flex flex-wrap justify-around mb-4 gap-x-4">
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-orange-500 text-slate-200 rounded-xl">HTML</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-blue-500 text-slate-200 rounded-xl">CSS</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-yellow-500 text-slate-200 rounded-xl">Javascipt</span>
+          </div>
+          <h1 class="mb-5 text-xl font-semibold">Lorem ipsum dolor sit.</h1>
+          <p class="leading-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quisquam temporibus accusamus voluptate aliquam id.</p>
+        </div>
+      </div>
+      
+      <div class="overflow-hidden sm:w-72 md:w-[355px] rounded-2xl bg-slate-100">
+        <div>
+          <img class="object-cover object-center rounded-xl" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="banner">
+        </div>
+        <div class="px-4 pt-4 pb-6">
+          <div class="flex flex-wrap justify-around mb-4 gap-x-4">
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-orange-500 text-slate-200 rounded-xl">HTML</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-blue-500 text-slate-200 rounded-xl">CSS</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-yellow-500 text-slate-200 rounded-xl">Javascipt</span>
+          </div>
+          <h1 class="mb-5 text-xl font-semibold">Lorem ipsum dolor sit.</h1>
+          <p class="leading-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quisquam temporibus accusamus voluptate aliquam id.</p>
+        </div>
+      </div>
+      
+      <div class="overflow-hidden sm:w-72 md:w-[355px] rounded-2xl bg-slate-100">
+        <div>
+          <img class="object-cover object-center rounded-xl" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="banner">
+        </div>
+        <div class="px-4 pt-4 pb-6">
+          <div class="flex flex-wrap justify-around mb-4 gap-x-4">
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-orange-500 text-slate-200 rounded-xl">HTML</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-blue-500 text-slate-200 rounded-xl">CSS</span>
+            <span class="flex items-center justify-center px-2 py-2 text-sm bg-yellow-500 text-slate-200 rounded-xl">Javascipt</span>
+          </div>
+          <h1 class="mb-5 text-xl font-semibold">Lorem ipsum dolor sit.</h1>
+          <p class="leading-7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quisquam temporibus accusamus voluptate aliquam id.</p>
+        </div>
+      </div>
+      <!-- cards -->
+    </div>
+  </div>
+  <div class="bg-slate-100">
+    <div class="container px-10 py-16 m-auto md:px-0">
+      <h1 class="mb-10 text-4xl text-center text-semibold">Dapatkan Akses Tak Terbatas</h1>
+      <div class="flex flex-wrap justify-center md:flex-nowrap gap-y-5 md:gap-y-0 md:justify-center md:gap-x-2">
+
+        <div class="px-6 py-5 w-full bg-purple-200 sm:w-[22rem] md:w-[260px] rounded-xl">
+          <h1 class="mb-5 text-2xl text-center">1 Bulan (30 Hari)</h1>
+          <h5 class="my-5">Akses Semua Kelas</h5>
+          <h5 class="my-5">Pembaruan gratis</h5>
+          <h5 class="my-5">Sertifikat</h5>
+          <h5 class="my-5">Forum Diskusi</h5>
+          <h5 class="my-5">Ujian</h5>
+          <h2 class="my-5 text-center text-2 xl"> IDR .450.000 </h2>
+          <button class="block w-full px-4 py-2 text-center bg-blue-600 text-slate-200 rounded-xl focus:outline-none focus:ring focus:ring-slate-400 hover:bg-blue-8">Beli</button>
+        </div>
+        
+        <div class="px-6 py-5 w-full md:scale-105 sm:w-[22rem] bg-gradient-to-r from-purple-400 via-violet-500 to-purple-600 text-slate-200 md:w-72 rounded-xl">
+          <h1 class="mb-5 text-2xl text-center">3 Bulan (90 Hari)</h1>
+          <h5 class="my-5">Akses Semua Kelas</h5>
+          <h5 class="my-5">Pembaruan gratis</h5>
+          <h5 class="my-5">Sertifikat</h5>
+          <h5 class="my-5">Forum Diskusi</h5>
+          <h5 class="my-5">Ujian</h5> 
+          <h2 class="my-5 text-center text-2 xl"> IDR .1.200.000 </h2>
+          <button class="block w-full px-4 py-2 text-center bg-slate-200 text-slate-800 rounded-xl focus:outline-none focus:ring focus:ring-slate-400 hover:bg-blue-8">Beli</button>
+        </div>
+
+        <div class="px-6 py-5 w-full bg-purple-200 sm:w-[22rem] md:w-[260px] rounded-xl">
+          <h1 class="mb-5 text-2xl text-center">Seumur Hidup</h1>
+          <h5 class="my-5">Akses Semua Kelas</h5>
+          <h5 class="my-5">Pembaruan gratis</h5>
+          <h5 class="my-5">Sertifikat</h5>
+          <h5 class="my-5">Forum Diskusi</h5>
+          <h5 class="my-5">Ujian</h5>
+          <h2 class="my-5 text-center text-2 xl"> IDR .6.000.000 </h2>
+          <button class="block w-full px-4 py-2 text-center bg-blue-600 text-slate-200 rounded-xl focus:outline-none focus:ring focus:ring-slate-400 hover:bg-blue-8">Beli</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
