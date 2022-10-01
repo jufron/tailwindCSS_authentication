@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tailwind css membuat navbar</title>
+  <link rel="stylesheet" href="../../dist/output.css">
+  <link href="dist/hamburgers.css" rel="stylesheet">
+</head>
+<body>
+  <header class="absolute top-0 left-0 right-0 z-10 backdrop-blur-md bg-white/60" id="navbar">
+    <div class="container m-auto">
+      <div class="flex justify-between p-5 transition duration-300 md:px-6">
+        <div class="text-2xl font-semibold">
+          <a href="" class="px-4 py-2 transition duration-300 rounded-lg hover:bg-slate-200 hover:text-blue-400">My Brand</a>
+        </div>
+        <div class="flex items-center md:hidden">
+          <button id="humburger" type="button" class="absolute block space-y-2 hamburger hamburger--emphatic right-6">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+
+        <div id="nav-link" class="absolute hidden transition rounded-lg shadow-lg md:shadow-none md:static md:flex md:justify-between w-52 right-8 top-full md:w-[500px] md:rounded-none md:bg-transparent bg-slate-100">
+          <a href="" class="flex items-center px-6 py-4 transition duration-300 rounded-lg md:px-4 md:justify-center md:py-0 hover:text-blue-400 md:hover:bg-slate-200">Home</a>
+          <a href="" class="flex items-center px-6 py-4 transition duration-300 rounded-lg md:px-4 md:justify-center md:py-0 hover:text-blue-400 md:hover:bg-slate-200">About</a>
+          <a href="" class="flex items-center px-6 py-4 transition duration-300 rounded-lg md:px-4 md:justify-center md:py-0 hover:text-blue-400 md:hover:bg-slate-200">Projcet</a>
+          <a href="" class="flex items-center px-6 py-4 transition duration-300 rounded-lg md:px-4 md:justify-center md:py-0 hover:text-blue-400 md:hover:bg-slate-200">Contact</a>
+          <a href="" class="flex items-center px-6 py-4 transition duration-300 rounded-lg md:px-4 md:justify-center md:py-0 hover:text-blue-400 md:hover:bg-slate-200">Sertificate</a>
+        </div>
+      </div>    
+    </div>
+  </header>
+  <div class="bg-slate-100">
+    <div class="container px-4 py-64 m-auto">
+      <h1 class="text-5xl font-semibold">Jufron Tamo Ama</h1>
+      <p class="mt-6 mb-3 leading-7">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consequuntur excepturi animi aspernatur in voluptates ut tempora dolor? Nobis, exercitationem?
+      </p>
+    </div>
+    <div class="bg-slate-50">
+      <div class="container px-4 m-auto">
+        <p class="mb-3 leading-7 font-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores repudiandae quo placeat aliquid, aspernatur quidem quibusdam fugiat tenetur doloribus animi eligendi voluptates excepturi perspiciatis non eum, optio labore modi quaerat! Natus minima id maiores, magnam mollitia veritatis maxime, blanditiis quibusdam laborum sunt pariatur voluptas cupiditate aliquid quam asperiores accusantium dignissimos voluptatum nihil corrupti quis voluptatibus. Non, maiores laboriosam suscipit temporibus ullam amet doloremque alias itaque illum dicta nemo velit odio quis corrupti perspiciatis molestias ut explicabo earum. Eveniet enim eum provident labore accusamus, doloremque vitae necessitatibus qui facere, neque quia unde, dicta iste consequuntur molestias itaque magni cum reiciendis!</p>
+        <p class="mb-3 leading-7 font-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores repudiandae quo placeat aliquid, aspernatur quidem quibusdam fugiat tenetur doloribus animi eligendi voluptates excepturi perspiciatis non eum, optio labore modi quaerat! Natus minima id maiores, magnam mollitia veritatis maxime, blanditiis quibusdam laborum sunt pariatur voluptas cupiditate aliquid quam asperiores accusantium dignissimos voluptatum nihil corrupti quis voluptatibus. Non, maiores laboriosam suscipit temporibus ullam amet doloremque alias itaque illum dicta nemo velit odio quis corrupti perspiciatis molestias ut explicabo earum. Eveniet enim eum provident labore accusamus, doloremque vitae necessitatibus qui facere, neque quia unde, dicta iste consequuntur molestias itaque magni cum reiciendis!</p>
+        <p class="mb-3 leading-7 font-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores repudiandae quo placeat aliquid, aspernatur quidem quibusdam fugiat tenetur doloribus animi eligendi voluptates excepturi perspiciatis non eum, optio labore modi quaerat! Natus minima id maiores, magnam mollitia veritatis maxime, blanditiis quibusdam laborum sunt pariatur voluptas cupiditate aliquid quam asperiores accusantium dignissimos voluptatum nihil corrupti quis voluptatibus. Non, maiores laboriosam suscipit temporibus ullam amet doloremque alias itaque illum dicta nemo velit odio quis corrupti perspiciatis molestias ut explicabo earum. Eveniet enim eum provident labore accusamus, doloremque vitae necessitatibus qui facere, neque quia unde, dicta iste consequuntur molestias itaque magni cum reiciendis!</p>
+        <p class="mb-3 leading-7 font-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores repudiandae quo placeat aliquid, aspernatur quidem quibusdam fugiat tenetur doloribus animi eligendi voluptates excepturi perspiciatis non eum, optio labore modi quaerat! Natus minima id maiores, magnam mollitia veritatis maxime, blanditiis quibusdam laborum sunt pariatur voluptas cupiditate aliquid quam asperiores accusantium dignissimos voluptatum nihil corrupti quis voluptatibus. Non, maiores laboriosam suscipit temporibus ullam amet doloremque alias itaque illum dicta nemo velit odio quis corrupti perspiciatis molestias ut explicabo earum. Eveniet enim eum provident labore accusamus, doloremque vitae necessitatibus qui facere, neque quia unde, dicta iste consequuntur molestias itaque magni cum reiciendis!</p>
+        <p class="mb-3 leading-7 font-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, maiores repudiandae quo placeat aliquid, aspernatur quidem quibusdam fugiat tenetur doloribus animi eligendi voluptates excepturi perspiciatis non eum, optio labore modi quaerat! Natus minima id maiores, magnam mollitia veritatis maxime, blanditiis quibusdam laborum sunt pariatur voluptas cupiditate aliquid quam asperiores accusantium dignissimos voluptatum nihil corrupti quis voluptatibus. Non, maiores laboriosam suscipit temporibus ullam amet doloremque alias itaque illum dicta nemo velit odio quis corrupti perspiciatis molestias ut explicabo earum. Eveniet enim eum provident labore accusamus, doloremque vitae necessitatibus qui facere, neque quia unde, dicta iste consequuntur molestias itaque magni cum reiciendis!</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    const humburger = document.querySelector('#humburger');
+    const navLink = document.querySelector('#nav-link');
+    const navbar = document.querySelector('#navbar');
+
+    humburger.addEventListener('click', function () {
+      this.classList.toggle('is-active');
+
+      if (navLink.classList.contains('hidden')) {
+        navLink.classList.remove('hidden');
+        navLink.classList.add('flex');
+        navLink.classList.add('flex-col');
+      } else {
+        navLink.classList.remove('flex');
+        navLink.classList.remove('flex-col');
+        navLink.classList.add('hidden');
+      }
+    });
+
+    window.addEventListener('scroll', function () {
+      if (this.scrollY > 10) {
+        navbar.classList.add('fixed');
+        navbar.classList.add('stiky-navbar');
+        navbar.classList.remove('absolute');
+      } else {
+        navbar.classList.remove('fixed');
+        navbar.classList.remove('stiky-navbar');
+        navbar.classList.add('absolute');
+      }
+    });
+  </script>
+</body>
+</html>
